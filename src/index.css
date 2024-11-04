@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  font-family: "Anton", sans-serif;
+}
+.font-bold {
+  font-weight: bold;
+}
+.custom-components {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.custom-filter {
+  white-space: nowrap;
+}
+.custom-filter label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+.custom-search {
+  margin: 0 10px;
+  white-space: nowrap;
+}
+.custom-btn,
+.navbar-item {
+  background-color: #f24b6a;
+  color: #fff;
+  border: 1px solid #f24b6a;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 7px 20px;
+  cursor: pointer;
+
+  text-align: center;
+}
+.custom-btn:hover,
+.navbar-item:hover {
+  background-color: #fff;
+  color: #f24b6a;
+}
+select {
+  background-color: #fff;
+  border-color: #dbdbdb;
+  border-radius: 0.375em;
+  color: #363636;
+  width: 200px;
+  height: 40px;
+}
+input {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.375em;
+  color: #363636;
+
+  height: 40px;
+}
+
+.card {
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  width: 18rem;
+  border: none;
+  --bs-card-border-color: 0;
+}
+.container {
+  margin: 60px auto;
+}
+.pokedex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.block {
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  color: #4a4a4a;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+.custom-link {
+  text-decoration: none;
+  border: 1px solid #f24b6a;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f24b6a;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+}
+
+.custom-link a {
+  text-decoration: none;
+  color: #f24b6a;
+}
+.details {
+  width: 50%;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+  padding: 20px;
+  text-align: center;
+}
+.details h2 {
+  text-align: center;
+  color: #f24b6a;
+}
+.static-text {
+  font-weight: 700;
+}
+.container-details,
+.home {
+  padding: 0 20px;
+}
+@media only screen and (max-width: 500px) {
+  .container-details,
+  .home {
+    padding: 0px;
+  }
+}
