@@ -8,7 +8,6 @@ const Card = ({ pokemon }) => {
   }
   const hasImage = pokemon.hasOwnProperty("image");
 
-  const handleRedirect = (id) => {};
   const pokemonDetailsUrl = `/pokemon/${pokemon.id}`;
   return (
     <div className="block">

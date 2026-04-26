@@ -23,7 +23,6 @@ const PokemonDetails = () => {
   if (!pokemon) {
     return <div>Loading...</div>;
   }
-  const hasImage = pokemon.hasOwnProperty("image");
 
   return (
     <div className="container-details">
